@@ -1,0 +1,75 @@
+a {
+text-decoration: none;
+}
+
+.hero {
+background-color: #FEFAF5;
+display: flex;
+justify-content: space-between;
+align-content: center;
+padding: 8.5rem 6.25rem 6rem 6.25rem;
+}
+
+.hero__left {
+width: 60%;
+}
+  
+.hero__right {
+width: 40%;
+}
+
+.hero__heading {
+color:#335576;
+text-align: left;
+display: flex;
+}
+
+.hero__copy {
+color:#335576;
+text-align: left;
+margin-bottom: 3rem;
+}
+
+.hero__button {
+background-color: #DB7A4E;
+color: #FFFFFF;
+border: none;
+border-radius: 20px;
+padding: 10px 30px;
+margin-left: 20px 0px;
+}
+
+.hero__img {
+min-width: 20.6rem;
+max-width: 21.8rem;
+min-height: 20rem;
+max-height: 22rem;
+padding-left: 2.5rem;
+}
+
+.card__container {
+display: flex; 
+justify-content: center;
+}
+
+.card__recommendations {
+position: relative;
+}
+
+.card {
+width: 17rem;
+height: 23rem;
+margin: 1.5rem;
+border: 1px solid rgba(0,0,0,0.2);
+border-radius: 5px;
+box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+background-color: #FFFFFF;
+} 
+
+.card__title {
+color: #FFFFFF;
+position: absolute;
+margin: 0;
+bottom: 2rem;
+right: 2.5rem;
+}
